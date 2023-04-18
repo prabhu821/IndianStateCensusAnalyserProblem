@@ -100,7 +100,7 @@ namespace TestIndianStatesCensusAnalyser
         }
 
         // TC2.3- Given state code data file when correct but type incorrect return custom exception
-     
+
         [Test]
         public void GivenStateCodeDataFileWhenCorrectButTypeIncorrectCustomReturnException()
         {
@@ -109,7 +109,7 @@ namespace TestIndianStatesCensusAnalyser
         }
 
         // TC2.4- Given state code data file when correct but delimiter incorrect custom return exception
-        
+
         [Test]
         public void GivenStateCodeDataFileWhenCorrectButDelimiterIncorrectCustomReturnException()
         {
@@ -118,7 +118,7 @@ namespace TestIndianStatesCensusAnalyser
         }
 
         // TC2.5- Given state code data file when correct but header incorrect return custom exception
-        
+
         [Test]
         public void GivenStateCodeDataFileWhenCorrectButHeaderIncorrectCustomReturnException()
         {
